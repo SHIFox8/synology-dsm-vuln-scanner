@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 스캔 결과 리포트 (대상 정보가 담길 수 있어 커밋 금지)
+report*.json
+report*.csv
+
+# 실제 대상 목록 (예제 파일 targets.example.txt 만 커밋)
+targets.txt
+targets_*.txt
